@@ -5,8 +5,9 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "coverage": "nyc npm run test"
+    "test": "jest",
+    "watch:test": "npm t -- -w",
+    "coverage": "nyc npm t"
   },
   "devDependencies": {
     "@babel/core": "^7.22.20",

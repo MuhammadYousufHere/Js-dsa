@@ -9,4 +9,3 @@ export const countOcurr = (str = '', char = '') => {
 }
 
 export const countOccurence = (str, char) => str.split(char).length - 1
-console.log(countOccurence('hello', 'l'))
